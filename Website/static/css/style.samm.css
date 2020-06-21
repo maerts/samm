@@ -167,6 +167,10 @@ div.section {
   vertical-align: bottom;
 }
 
+.link-icon {
+  color: #66B8B8;
+}
+
 #text-page h1,
 #text-page h2,
 #text-page h3 {
@@ -3837,6 +3841,18 @@ a.list-group-item.active > .badge,
   margin: 10px;
   width: 200px;
 }
+
+.text-wrap-img-medium {
+  float: right;
+  margin: 10px;
+  width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .text-wrap-img-medium {
+    display: none;;
+  }
+
 
 .centered-img-small {
   display: block;
