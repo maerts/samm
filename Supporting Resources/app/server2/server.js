@@ -25,15 +25,19 @@ var server = app.listen(8080, function () {
 })
 
 function initial() {
-	Role.create({
-		name: "USER"
-	});
 
-	Role.create({
-		name: "AUDITOR"
-	});
-
-	Role.create({
-		name: "ADMIN"
-	});
+	// Role.create({
+	// 	id: 1,
+	// 	name: "USER"
+	// });
+  //
+	// Role.create({
+	// 	id: 2,
+	// 	name: "AUDITOR"
+	// });
+  //
+	// Role.create({
+	// 	id: 3,
+	// 	name: "ADMIN"
+	// });
 }
