@@ -56,6 +56,6 @@ profile() {
   this.router.navigateByUrl('/userprofile');
 }
 home() {
-  window.location.href = "http://"+ hostname +":4208/home";
+  window.location.href = "http://"+ hostname +":4200/home";
 }
 }

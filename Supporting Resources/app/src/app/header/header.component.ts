@@ -108,7 +108,7 @@ onSubmit2() {
       this.auths.sendToken(this.form.value.email);
      // this.loginsuccess =  data.message;
       this.modalRef.hide();
-      window.location.href = 'http://'+ hostname +':4208/home';
+      window.location.href = 'http://'+ hostname +':4200/home';
     },
     error => {
       console.log(error);
